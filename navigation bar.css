@@ -3,15 +3,20 @@
     margin: 0;
     padding: 0;
 }
-
+#navbar{
+ background-color: black;
+}
 #one{
     margin: 50px;
+    color: aliceblue;
 }
 #two{
     margin: 50px;
+    color: aliceblue;
 }
 #three{
     margin: 50px;
+    color: aliceblue;
 }
 #four{
     border-color: black; 
