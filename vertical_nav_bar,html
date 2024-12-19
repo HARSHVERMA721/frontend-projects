@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floating vertical navbar</title>
+    <link rel="stylesheet" href="vertical_nav_bar.css">
+</head>
+<body>
+    <div class="nav_bar_background" height="100%">
+        <div class="nav_body">
+            <div class="nav_body_inner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
