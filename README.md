@@ -17,8 +17,10 @@ Welcome to the **Navbar Designs** repository! This project showcases various nav
 
 ## 🎨 Demo
 
-
+fixed-navbar (copy of amazon)
 ![Screenshot (402)](https://github.com/user-attachments/assets/46ac0c5f-a38e-4604-837b-47e4fc81b3cb)
+
+navigation bar (copy of fiverr)
 ![Screenshot (403)](https://github.com/user-attachments/assets/d3bbe3a2-0328-4ffc-816b-90d2d72d9839)
 
 
