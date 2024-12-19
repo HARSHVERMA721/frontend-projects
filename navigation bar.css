@@ -4,44 +4,140 @@
     padding: 0;
 }
 #navbar{
- background-color: black;
+ background-color: rgb(255, 255, 255);
  padding: 0 ;
  margin: 0;
- display: flex;
- justify-content: space-evenly;
+ display: contents;
+ justify-content: center;
+ align-items: center;
+ height: 200px;
+ width: 100%;
+ box-sizing: border-box;
+ 
  
 }
-#one{
-    font-size: 30px;
-    color: aliceblue;
-    color: coral;
-    margin: 20px 0 20px 0;
+.nav-bar{
+ width: 100%;
+ height: 170px;
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+ border-bottom: 1px solid rgb(31, 29, 29);
+ 
+}
+.nav-bar-first{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-bar-baricon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 80px;
+    font-size:70px;
+    margin-right: 50px;
+}
+.nav-bar-banner{
+    height: 80px;
+    width: 260px;
+    background-image:url(images/download.png);
+    image-resolution: 4px;
+    background-size: cover;
+    
+}
+
+/* navbar-search */
+
+.navbar-search{
+    display: flex;
+    width: 600px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 39, 39);
+    margin-left: 70px;
+    
+}
+.navbar-search:hover{
+    border: 2px solid rgb(13, 116, 37);
     position: relative;
-    top: -8px;
-
-}
-#two{
-    
-    color: aliceblue;
-    margin: 20px 0 20px 0;
-}
-#three{
-    
-    color: aliceblue;
-    margin: 20px 0 20px 0;
+    left: -1px;
 }
 
-#four{
-    border-color: black;
-    margin: 20px 0 20px 0; 
+.search-input{
+   border-radius: 10px 0 0 10px;
+   width: 499px;
+   height: 80px;
+   border: none;
+   font-size: 15px;
+   border-color: white;
+}
+.search-icon{
+    background-color: black;
+    width: 110px;
+    height: 80px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: rgb(251, 248, 248);
     
 }
 
-#six{
-    
-    color: aliceblue;
-    margin: 20px 0 20px 0;
+.navbar-buttons-options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
 }
-#five{
-    margin: 20px 0 20px 0;
+
+.nav-bar-fiverr-pro-button select{
+   font-size: xx-large;
+   font-weight: bold;
+   border:1px solid transparent ;
+   border-color: #fff transparent transparent transparent;
+}
+
+.nav-bar-explore-button i{
+    font-size: xx-large;
+}
+.nav-bar-explore-button select{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-bar-Become_a_seller-button{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-bar-Become_a_seller-button:hover{
+    color: #19a463;
+}
+.nav-bar-sign_in-button{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-bar-sign_in-button:hover{
+    color: #1aa564;
+}
+.nav-bar-join-button{
+    height: 80px;
+    width: 150px;
+}
+.nav-bar-join-button{
+    font-size: xx-large;
+    border:2px solid #1aa564;
+    color: #1aa16b;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-bar-join-button:hover{
+   color:white ;
+   background-color: #19a463;
+
 }
