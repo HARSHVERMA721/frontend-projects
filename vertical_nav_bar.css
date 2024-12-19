@@ -1,0 +1,15 @@
+.nav_bar_background{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_body_inner{
+
+}
